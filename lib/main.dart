@@ -10,8 +10,57 @@ class App extends StatelessWidget { // aak custom widget app define kiya gaya ha
 
   @override // ye dart ka annotation hay jo kehta hay kay neechay wala method parent class kay method ko override kar raha hay
   Widget build(BuildContext context) { // build method flutter widget ko screen par display karnay kay liyay use hota hay. har widget ka yahi core function hota hy.
-    return const MaterialApp(); // aak top level widget hay jo scaffolding , navigation , theme provide karta hay.
-  
+    return MaterialApp(
+      themeMode: ThemeMode.system,
+      //theme: 
+
+      darkTheme: ThemeData()
+
+    ); // aak top level widget hay jo scaffolding , navigation , theme provide karta hay.
+       
   
   }
 }
+
+
+// import 'package:flutter/material.dart';
+
+// void main(){
+//   runApp(const App());
+// }
+
+// class App extends StatelessWidget{
+//   const App({super.key});
+  
+//   @override
+
+//   Widget build(BuildContext context){
+//     return const MaterialApp();
+//   }
+// }
+
+
+// import 'package:flutter/material.dart';
+
+// void main(){
+//   runApp(const App());
+
+// }
+
+// class App extends StatelessWidget{
+//   const App({super.key});
+
+  
+//   @override
+
+//   Widget build(BuildContext context){
+//     return MaterialApp(
+//       themeMode: ThemeMode.system, 
+//        theme:ThemeData( 
+      
+
+//     ),
+//     );
+  
+//   }
+// }
