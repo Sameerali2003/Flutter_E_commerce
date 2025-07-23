@@ -12,6 +12,7 @@ class SAppTheme {
     primaryColor: Colors.blue,
     scaffoldBackgroundColor: Colors.white,
     textTheme: STextTheme.lightTextTheme,
+    elevatedButtonTheme: SElevatedButtonTheme.lightElevatedButtonTheme,
   );
   static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
@@ -20,5 +21,6 @@ class SAppTheme {
     primaryColor: Colors.blue,
     scaffoldBackgroundColor: Colors.black,
     textTheme: STextTheme.darkTextTheme,
+     elevatedButtonTheme: SElevatedButtonTheme.lightElevatedButtonTheme,
   );
 }
